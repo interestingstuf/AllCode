@@ -12,7 +12,7 @@ class student2 extends teacher1{
     String mainsubject = "math";
     void does2(){
         student2 obj = new student2();
-        System.out.println(obj.designation);l
+        System.out.println(obj.designation);
         System.out.println(obj.college);
         System.out.println(obj.mainsubject);
     } 
