@@ -1,6 +1,7 @@
 package JavaPractice;
 import javax.swing.*;
 import java.awt.event.*;
+import java.util.ArrayList;
 
 
 
@@ -24,11 +25,14 @@ public class swingmcqfunctionjava {
         bg1.add(rb4);
         JButton b1 = new JButton("Submit");
         b1.setBounds(a+200,b,100,50);
+        
         b1.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e){
                 if (rb1.isSelected()){
                     if (rb1.getActionCommand().equals(correctanswer)){
                         System.out.println("correct!");
+                        int correct = 1;
+                        
                     }
                     else {
                         System.out.println("incorrect:(");
@@ -37,6 +41,7 @@ public class swingmcqfunctionjava {
                 else if (rb2.isSelected()){
                     if (rb2.getActionCommand().equals(correctanswer)){
                         System.out.println("correct!");
+                        int correct = 2;
                     }
                     else {
                         System.out.println("incorrect:(");
@@ -45,6 +50,7 @@ public class swingmcqfunctionjava {
                 else if (rb3.isSelected()){
                     if (rb3.getActionCommand().equals(correctanswer)){
                         System.out.println("correct!");
+                        int correct = 3;
                     }
                     else {
                         System.out.println("incorrect:(");

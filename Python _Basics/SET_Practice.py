@@ -15,4 +15,4 @@ print (a.difference(b))
 print(a.intersection(b))
 print(a.union(b))
 name1 = input("Enter The Name")
-marks = input("Enter The Marks")#
+marks = input("Enter The Marks")#x
